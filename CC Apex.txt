@@ -1,0 +1,10 @@
+public class SampleApexClass {
+    public Decimal myValue;
+    public string myString='';
+
+public Static Decimal getcalculatedValue(Decimal f){
+    decimal myValue=(f-32)* 5/9
+     System.debug('the result is '+ myValue);
+     return myValue;
+  }
+}	
